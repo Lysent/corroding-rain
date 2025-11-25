@@ -1,0 +1,8 @@
+{
+  "itemGroup.weathering": "Weathering Machines",
+  "block.weathering.rusted_machine_light": "Pitted Machine Casing",
+  "block.weathering.rusted_machine": "Rusted Machine Frame",
+  "block.weathering.rusted_machine_heavy": "Corroded Heavy Chassis",
+  "item.weathering.machine_scrap": "Machine Scrap",
+  "weathering.tooltip.exposed": "Rain and skylight are eating through this machine."
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "weathering:rusted_machine"}
+  ],
+  "result": {"item": "weathering:machine_scrap", "count": 4}
+}

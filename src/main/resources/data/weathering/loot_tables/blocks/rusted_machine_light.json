@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {"enchantments": [{"enchantment": "minecraft:silk_touch", "levels": {"min": 1}}]}
+                }
+              ],
+              "name": "weathering:rusted_machine_light"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "weathering:machine_scrap",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {"type": "minecraft:uniform", "min": 2.0, "max": 4.0}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#thermal:machines",
+    "#thermal:dynamos"
+  ]
+}
